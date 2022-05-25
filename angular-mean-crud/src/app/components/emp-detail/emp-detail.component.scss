@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: peachpuff;
+    text-align: start;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Add padding to containers */
+
+.form-control {
+    padding: 20px;
+    text-align: start;
+}
+
+
+/* Full-width input fields */
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+}
+
+input[type=text]:focus {
+    background: #f1f1f1;
+    outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+
+.btnUpdate {
+    background-color: papayawhip;
+    border: yellow;
+    color: blue;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btnUpdate:hover {
+    opacity: 1;
+    color: blue;
+}
